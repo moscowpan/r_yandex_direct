@@ -1,6 +1,6 @@
 yadirGetToken <-
 function(){
-  browseURL("https://oauth.yandex.ru/authorize?response_type=token&client_id=3741a6d5d2454745867cd93fd191f6d2")
+  browseURL("https://oauth.yandex.ru/authorize?response_type=token&client_id=365a2d0a675c462d90ac145d4f5948cc")
   token <- readline(prompt = "Enter your token: ")
   return(token)
 }
